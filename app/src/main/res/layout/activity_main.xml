@@ -12,6 +12,7 @@
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:layout_marginTop="32dp"
+        android:backgroundTint="#BA9D9D"
         android:orientation="horizontal"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -47,8 +48,8 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="12dp"
         android:ems="10"
-        android:text="@string/Input_mail"
         android:inputType="textEmailAddress"
+        android:text="@string/Input_mail"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
@@ -97,11 +98,15 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="230dp"
+        android:backgroundTint="#A68F8F"
         android:text="@string/btn_potwierdz"
+        android:textColor="#433131"
+        android:textColorLink="#D5A7A7"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/linearLayout" />
+        app:layout_constraintTop_toTopOf="@+id/linearLayout"
+        app:strokeColor="#978282" />
 
     <TextView
         android:id="@+id/textView6"
