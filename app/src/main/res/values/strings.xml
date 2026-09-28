@@ -1,4 +1,12 @@
 <resources>
     <string name="app_name">Lekcja3_zad1</string>
+    <string name="Input_mail">lol@gmail.com </string>
+    <string name="mailtext">Podaj e-mail:</string>
+    <string name="Input_pass">cos cos</string>
+    <string name="haslotext">Podaj hasło: </string>
+    <string name="Input_pass_pow">cos cos</string>
+    <string name="haslotext_pow">Podaj hasło: </string>
+    <string name="btn_potwierdz">Zatwierdź</string>
+    <string name="czesc">Witaj lol@gmail.com</string>
     <string name="title">Resetuj konto</string>
 </resources>
